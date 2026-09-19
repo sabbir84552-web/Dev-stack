@@ -3,7 +3,7 @@
 A modern web application to explore software technologies and build your custom tech stack.
 
 ## 🚀 Live Demo
-[Insert Your Live Site Link Here]
+[https://sabbir84552-web.github.io/Dev-stack/]
 
 ## ✨ Key Features
 - **Dynamic Data Fetching:** Fetches technology data dynamically from JSON file.
