@@ -62,7 +62,7 @@ export default function Nevebar() {
 
         {/* Desktop Nav Links (Center on desktop) */}
         <nav className="hidden md:flex items-center gap-8 text-xs font-semibold text-slate-600">
-          <a href="#" className="hover:text-pink-600 font-bold text-slate-900 transition-colors">
+          <a href="#" className="hover:text-pink-600  transition-colors">
             Home
           </a>
           <a href="#technologies" className="hover:text-pink-600 transition-colors">
