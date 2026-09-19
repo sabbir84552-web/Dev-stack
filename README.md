@@ -1,6 +1,7 @@
 # DevStack - Explore Technologies
 
-A modern web application built with React and Tailwind CSS that allows developers to explore software technologies and build their custom tech stack.
+A modern web application built with React and Tailwind CSS that allows developers to explore software technologies and build their custom tech 
+stack.
 
 ## 🚀 Live Demo
 [Live Demo](https://dev-stack-henna.vercel.app/)
