@@ -7,7 +7,7 @@ export default function TeknologiKard() {
   const [myStack, setMyStack] = useState([]);
   const [loading, setLoading] = useState(true); // Loading State for Challenge requirement
 
-  // 1. JSON file theke useEffect die data fetch kora hocche
+  // 1. JSON file theke useEffect die data fetch kora hocche akhane
   useEffect(() => {
     fetch("/teknologigulo.json")
       .then((res) => res.json())
@@ -21,7 +21,7 @@ export default function TeknologiKard() {
       });
   }, []);
 
-  // 2. Add to Stack Functionality
+  // 2. Add to Stack Functionality 
   const handleAddToStack = (tech) => {
     const isAlreadyAdded = myStack.some((item) => item.id === tech.id);
 
@@ -34,7 +34,7 @@ export default function TeknologiKard() {
     toast.success(`${tech.name} added to your stack!`);
   };
 
-  // 3. Remove Single Item Functionality
+  // 3. Remove Single Item Functionality  akhane theke suru
   const handleRemoveFromStack = (id, name) => {
     setMyStack((prevStack) => prevStack.filter((item) => item.id !== id));
     toast.info(`${name} removed from stack!`);
@@ -60,7 +60,7 @@ export default function TeknologiKard() {
         </p>
       </div>
 
-      {/* Challenge Part: Loading State Indicator */}
+      {/* Challenge Part: Loading State Indicator akhna theke suru hoise */}
       {loading ? (
         <div className="flex justify-center items-center py-20">
           <p className="text-lg font-semibold text-gray-600 animate-pulse">
